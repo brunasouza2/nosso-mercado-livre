@@ -37,7 +37,7 @@ public class User{
     /**
      * User class constructor method.
      * @param login parameter that will identify the user.
-     * @param password will be encrypted to be saved in the bank.
+     * @param password it is necessary to pass the password in plain text.
      * @return an instantiated User object.
      */
     public User(@NotBlank @Email String login,
